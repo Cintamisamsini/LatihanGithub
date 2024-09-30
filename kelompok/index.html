@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<body>
+    <h1>draw dynamic donus charts with plotly.js</h1>
+    <table>
+        <tr>
+            <td><label>indonesia:</label></td>
+            <td><input type="number" id="id-indo" min="10" max="200"></td>
+        </tr>
+        <tr>
+            <td><label>france:</label></td>
+            <td><input type="number" id="id-fran" min="10" max="200"></td>
+        </tr>
+        <tr>
+            <td><label>canada:</label></td>
+            <td><input type="number" id="id-cana" min="10" max="200"></td>
+        </tr>
+        <tr>
+            <td><label>USA:</label></td>
+            <td><input type="number" id="id-usa" min="10" max="200"></td>
+        </tr>
+        <tr>
+            <td><label>argentina:</label></td>
+            <td><input type="number" id="id-arge" min="10" max="200"></td>
+        </tr>
+    </table>
+    <br><button id="btn-update">update chart</button>
+    <hr>
+    <div id="myPlot" style="width:100%";max-width:700px></div>
+<script type="text/javascript" src="myscripts.js"></script>
+</body>
+</html>
